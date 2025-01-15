@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Quiz Test (Uzbek)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>HTML Bo'yicha Test</h1>
+        <p id="question">Savol shu yerda paydo bo'ladi...</p>
+        <div class="options">
+            <button class="option-btn" onclick="checkAnswer(0)">Variant 1</button>
+            <button class="option-btn" onclick="checkAnswer(1)">Variant 2</button>
+            <button class="option-btn" onclick="checkAnswer(2)">Variant 3</button>
+            <button class="option-btn" onclick="checkAnswer(3)">Variant 4</button>
+        </div>
+        <button class="next-btn" onclick="nextQuestion()">Keyingi Savol</button>
+        <p id="score">Ball: 0</p>
+        
+        <!-- Result Section (Hidden Until Test Completion) -->
+        <div id="result-section" class="result-section">
+            <h2>Test Yakunlandi!</h2>
+            <p id="final-score"></p>
+            <div id="all-answers"></div>
+            <button class="start-again-btn" onclick="startAgain()">Testni Qayta Boshlash</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
