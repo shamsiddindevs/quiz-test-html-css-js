@@ -1,5 +1,5 @@
 // html questions
-const questions = [
+const questions1 = [
     {
         question: "HTML nimani anglatadi?",
         options: [
@@ -245,236 +245,249 @@ const questions = [
 // css questions
 
 
-const questions2 = [
+const questions = [
     {
-        "savol": "CSS nimani anglatadi?",
-        "variantlar": [
+        question: "CSS nimani anglatadi?",
+        options: [
             "Computer Style Sheets",
             "Creative Style Sheets",
             "Cascading Style Sheets",
             "Colorful Style Sheets"
         ],
-        "javob": 2
+        answer: 2
     },
     {
-        "savol": "Qaysi HTML tegi ichida ichki CSS yoziladi?",
-        "variantlar": [
-            "<style>",
+        question: "Qaysi HTML elementi ichida CSS yoziladi?",
+        options: [
             "<css>",
-            "<script>",
-            "<link>"
+            "<style>",
+            "<stylesheet>",
+            "<script>"
         ],
-        "javob": 0
+        answer: 1
     },
     {
-        "savol": "Qaysi xususiyat matn rangini o'rnatadi?",
-        "variantlar": [
+        question: "Qaysi xususiyat matn rangini o'rnatadi?",
+        options: [
             "font-color",
-            "text-color",
             "color",
-            "font-style"
+            "text-color",
+            "bg-color"
         ],
-        "javob": 2
+        answer: 1
     },
     {
-        "savol": "Qanday qilib HTML fayliga tashqi CSS faylni ulash mumkin?",
-        "variantlar": [
-            "<stylesheet>mystyle.css</stylesheet>",
-            "<style src=\"mystyle.css\">",
-            "<link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle.css\">",
-            "<css link=\"mystyle.css\">"
+        question: "Qanday qilib tashqi CSS faylni ulash mumkin?",
+        options: [
+            "<link rel='stylesheet' href='style.css'>",
+            "<css link='style.css'>",
+            "<style> style.css </style>",
+            "<script src='style.css'>"
         ],
-        "javob": 2
+        answer: 0
     },
     {
-        "savol": "Qaysi xususiyat matnni markazga hizalaydi?",
-        "variantlar": [
-            "text-indent",
+        question: "Qaysi xususiyat matnni markazga hizalaydi?",
+        options: [
+            "text-center",
             "text-align",
-            "font-align",
-            "align"
+            "align-text",
+            "justify"
         ],
-        "javob": 1
+        answer: 1
     },
     {
-        "savol": "Qanday qilib fon rangini o'rnatish mumkin?",
-        "variantlar": [
-            "background-color",
+        question: "Qanday qilib HTML fon rangini o'rnatish mumkin?",
+        options: [
             "color",
             "bgcolor",
-            "background-image"
+            "background-color",
+            "background"
         ],
-        "javob": 0
+        answer: 2
     },
     {
-        "savol": "Qaysi xususiyat elementning kengligini o'rnatadi?",
-        "variantlar": [
+        question: "CSS-da elementning kengligini o'rnatish uchun qaysi xususiyat ishlatiladi?",
+        options: [
             "width",
-            "length",
-            "size",
+            "max-width",
+            "min-width",
             "height"
         ],
-        "javob": 0
+        answer: 0
     },
     {
-        "savol": "Qanday qilib matnni qalin qilish mumkin?",
-        "variantlar": [
-            "font-weight: bold;",
-            "font-style: bold;",
-            "text-weight: bold;",
-            "text-style: bold;"
-        ],
-        "javob": 0
-    },
-    {
-        "savol": "Qaysi xususiyat elementning chetlarini (margin) o'rnatadi?",
-        "variantlar": [
-            "padding",
-            "spacing",
-            "margin",
-            "border"
-        ],
-        "javob": 2
-    },
-    {
-        "savol": "Qanday qilib matn ostiga chiziq qo'yish mumkin?",
-        "variantlar": [
-            "text-decoration: underline;",
-            "text-style: underline;",
-            "font-decoration: underline;",
-            "font-style: underline;"
-        ],
-        "javob": 0
-    },
-    {
-        "savol": "Qaysi xususiyat elementning ichki bo'shligini (padding) o'rnatadi?",
-        "variantlar": [
-            "padding",
-            "margin",
-            "spacing",
-            "border"
-        ],
-        "javob": 0
-    },
-    {
-        "savol": "Qanday qilib matnni kichik harflarga aylantirish mumkin?",
-        "variantlar": [
-            "text-transform: lowercase;",
-            "text-transform: uppercase;",
-            "text-transform: capitalize;",
-            "text-transform: small;"
-        ],
-        "javob": 0
-    },
-    {
-        "savol": "Qaysi xususiyat elementning chegarasini (border) o'rnatadi?",
-        "variantlar": [
-            "border",
-            "margin",
-            "padding",
-            "outline"
-        ],
-        "javob": 0
-    },
-    {
-        "savol": "Qanday qilib matnni chapga hizalash mumkin?",
-        "variantlar": [
-            "text-align: left;",
-            "text-align: right;",
-            "text-align: center;",
-            "text-align: justify;"
-        ],
-        "javob": 0
-    },
-    {
-        "savol": "Qaysi xususiyat shrift oilasini (font-family) o'rnatadi?",
-        "variantlar": [
-            "font-family",
-            "font-style",
+        question: "Matnni qalin qilish uchun qaysi xususiyat ishlatiladi?",
+        options: [
             "font-weight",
-            "font-variant"
+            "font-style",
+            "text-bold",
+            "font-color"
         ],
-        "javob": 0
+        answer: 0
     },
     {
-        "savol": "Qanday qilib matnni katta harflarga aylantirish mumkin?",
-        "variantlar": [
-            "text-transform: uppercase;",
-            "text-transform: lowercase;",
-            "text-transform: capitalize;",
-            "text-transform: large;"
+        question: "Qanday qilib CSS'da matn ostiga chiziq chiziladi?",
+        options: [
+            "text-style: underline;",
+            "text-decoration: underline;",
+            "underline: true;",
+            "font-decoration: underline;"
         ],
-        "javob": 0
+        answer: 1
     },
     {
-        "savol": "Qaysi xususiyat elementning balandligini o'rnatadi?",
-        "variantlar": [
-            "height",
-            "width",
-            "size",
-            "length"
+        question: "Qanday qilib CSS'da fon rasmi qo'shish mumkin?",
+        options: [
+            "background-image: url('image.jpg');",
+            "image-background: url('image.jpg');",
+            "background: image('image.jpg');",
+            "image-url: 'image.jpg';"
         ],
-        "javob": 0
+        answer: 0
     },
     {
-        "savol": "Qanday qilib matnni o'rtaga hizalash mumkin?",
-        "variantlar": [
-            "text-align: center;",
-            "text-align: left;",
-            "text-align: right;",
-            "text-align: justify;"
+        question: "CSS'da elementga chegara qo'shish uchun qaysi xususiyat ishlatiladi?",
+        options: [
+            "border-style",
+            "border-width",
+            "border",
+            "border-outline"
         ],
-        "javob": 0
+        answer: 2
     },
     {
-        "savol": "Qaysi xususiyat elementning tashqi bo'shligini (margin) o'rnatadi?",
-        "variantlar": [
-            "margin",
+        question: "Qaysi xususiyat elementning chetlarini o'rnatadi?",
+        options: [
             "padding",
+            "margin",
             "spacing",
             "border"
         ],
-        "javob": 0
+        answer: 1
     },
     {
-        "savol": "Qanday qilib matnni katta harf bilan boshlash mumkin?",
-        "variantlar": [
-            "text-transform: capitalize;",
-            "text-transform: uppercase;",
-            "text-transform: lowercase;",
-            "text-transform: initial;"
+        question: "Elementning ichki bo'shligini (padding) qanday o'rnatish mumkin?",
+        options: [
+            "padding",
+            "margin",
+            "spacing",
+            "border"
         ],
-        "javob": 0
+        answer: 0
     },
     {
-        "savol": "Qaysi xususiyat elementning tashqi ko'rinishini (display) o'rnatadi?",
-        "variantlar": [
-            "display",
-            "visibility",
-            "opacity",
-            "appearance"
+        question: "CSS'da qanday qilib gradient fon qo'shish mumkin?",
+        options: [
+            "background: gradient(red, blue);",
+            "background: linear-gradient(red, blue);",
+            "gradient: linear(red, blue);",
+            "linear-gradient: background(red, blue);"
         ],
-        "javob": 0
+        answer: 1
     },
     {
-        "savol": "Qanday qilib matnni o'ngga hizalash mumkin?",
-        "variantlar": [
-            "text-align: right;",
-            "text-align: left;",
+        question: "Qaysi xususiyat blok elementni markazlashtiradi?",
+        options: [
+            "margin: auto;",
             "text-align: center;",
-            "text-align: justify;"
+            "align-content: center;",
+            "justify-content: center;"
         ],
-        "javob": 0
+        answer: 0
     },
     {
-        "savol": "Qaysi xususiyat elementning ko'rinishini (visibility) o'rnatadi?",
-        "variantlar": [
-            "visibility",
-            "display",
-            "opacity",
-            "appearance"
+        question: "Qaysi xususiyat elementlarni yonma-yon joylashtiradi?",
+        options: [
+            "display: block;",
+            "display: inline;",
+            "display: flex;",
+            "display: grid;"
         ],
-        "javob":0},]
+        answer: 2
+    },
+    {
+        question: "CSS'da qanday qilib elementga soyalar qo'shish mumkin?",
+        options: [
+            "box-shadow: 5px 5px 10px gray;",
+            "shadow-box: gray;",
+            "box: shadow gray;",
+            "shadow: box gray;"
+        ],
+        answer: 0
+    },
+    {
+        question: "Qaysi xususiyat matnning harflari orasidagi masofani o'rnatadi?",
+        options: [
+            "word-spacing",
+            "letter-spacing",
+            "text-spacing",
+            "font-spacing"
+        ],
+        answer: 1
+    },
+    {
+        question: "Qaysi xususiyatdan foydalanib, elementning aylana shaklini hosil qilish mumkin?",
+        options: [
+            "border-style: round;",
+            "border-radius: 50%;",
+            "circle: true;",
+            "shape: circle;"
+        ],
+        answer: 1
+    },
+    {
+        question: "Qanday qilib hover effekti yaratish mumkin?",
+        options: [
+            "element.onhover",
+            "element:hover",
+            "hover(element)",
+            "hover-effect"
+        ],
+        answer: 1
+    },
+    {
+        question: "Qanday qilib font ulash mumkin?",
+        options: [
+            "font-face: 'Arial';",
+            "@font-family: Arial;",
+            "@font-face { font-family: Arial; }",
+            "font: Arial;"
+        ],
+        answer: 2
+    },
+    {
+        question: "Flexbox'da elementlarni markazlashtirish uchun qaysi xususiyat ishlatiladi?",
+        options: [
+            "align-items: center;",
+            "justify-content: center;",
+            "A va B to'g'ri",
+            "text-align: center;"
+        ],
+        answer: 2
+    },
+    {
+        question: "CSS animatsiyalarni qanday qo'shish mumkin?",
+        options: [
+            "@keyframes",
+            "animation-keyframe",
+            "animation-play",
+            "transition"
+        ],
+        answer: 0
+    },
+    {
+        question: "CSS'da qanday qilib matnni kichik harfda ko'rsatish mumkin?",
+        options: [
+            "text-transform: lowercase;",
+            "text-case: lower;",
+            "font-case: lower;",
+            "transform-text: lowercase;"
+        ],
+        answer: 0
+    }
+];
+
 
 // Generate HTML and CSS questions
  
@@ -482,7 +495,7 @@ const questions2 = [
 
 // JavaScript questions
 
- const questions3 = [
+ const questions2 = [
     {
         question: "JavaScript nimani anglatadi?",
         options: [
