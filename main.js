@@ -1,5 +1,5 @@
 // html questions
-const questions1 = [
+const questions = [
     {
         question: "HTML nimani anglatadi?",
         options: [
@@ -482,7 +482,7 @@ const questions2 = [
 
 // JavaScript questions
 
- const questions = [
+ const questions3 = [
     {
         question: "JavaScript nimani anglatadi?",
         options: [
